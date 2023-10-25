@@ -1,6 +1,6 @@
-FROM mhart/alpine-node:8
+FROM mhart/alpine-node:12
 
-ENV NODE_VERSION 8.9.4
+ENV NODE_VERSION 12
 
 RUN apk add --no-cache make gcc g++ python bash
 
